@@ -4,11 +4,12 @@ using System.Text;
 
 namespace UrlFriendlyConverter
 {
-    public partial class Form1 : Form
+    public partial class UrlFriendlyConverter : Form
     {
-        public Form1()
+        public UrlFriendlyConverter()
         {
             InitializeComponent();
+            this.Text = "UrlFriendlyConverter";
             btnConvert.Click += btnConvert_Click;
             btnCopy.Click += btnCopy_Click;
             chkAutoConvert.CheckedChanged += chkAutoConvert_CheckedChanged;
@@ -91,8 +92,44 @@ namespace UrlFriendlyConverter
             return text;
         }
 
+        //private string RemoveDiacritics(string text)
+        //{
+        //    var normalizedString = text.Normalize(NormalizationForm.FormD);
+        //    var stringBuilder = new StringBuilder();
+
+        //    foreach (var c in normalizedString)
+        //    {
+        //        var unicodeCategory = CharUnicodeInfo.GetUnicodeCategory(c);
+        //        if (unicodeCategory != UnicodeCategory.NonSpacingMark)
+        //        {
+        //            stringBuilder.Append(c);
+        //        }
+        //    }
+
+        //    return stringBuilder.ToString().Normalize(NormalizationForm.FormC);
+        //}
+
         private string RemoveDiacritics(string text)
         {
+            // Mapowanie polskich znakÛw
+            var polishChars = new Dictionary<char, char>()
+    {
+        {'π', 'a'}, {'•', 'A'},
+        {'Ê', 'c'}, {'∆', 'C'},
+        {'Í', 'e'}, {' ', 'E'},
+        {'≥', 'l'}, {'£', 'L'},
+        {'Ò', 'n'}, {'—', 'N'},
+        {'Û', 'o'}, {'”', 'O'},
+        {'ú', 's'}, {'å', 'S'},
+        {'ü', 'z'}, {'è', 'Z'},
+        {'ø', 'z'}, {'Ø', 'Z'}
+    };
+
+            foreach (var pair in polishChars)
+            {
+                text = text.Replace(pair.Key, pair.Value);
+            }
+
             var normalizedString = text.Normalize(NormalizationForm.FormD);
             var stringBuilder = new StringBuilder();
 
@@ -107,7 +144,6 @@ namespace UrlFriendlyConverter
 
             return stringBuilder.ToString().Normalize(NormalizationForm.FormC);
         }
-
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 

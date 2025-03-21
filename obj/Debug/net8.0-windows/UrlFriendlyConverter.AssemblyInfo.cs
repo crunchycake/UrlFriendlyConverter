@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UrlFriendlyConverter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ecc139c8d220ea2e6732f7761dd2ceb595f51878")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b093eeaa3c3698dcffd7c298d6659bb4f4fece9")]
 [assembly: System.Reflection.AssemblyProductAttribute("UrlFriendlyConverter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UrlFriendlyConverter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

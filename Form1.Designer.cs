@@ -1,6 +1,6 @@
 ﻿namespace UrlFriendlyConverter
 {
-    partial class Form1
+    partial class UrlFriendlyConverter
     {
         /// <summary>
         ///  Required designer variable.
@@ -112,7 +112,7 @@
             btnClear.Name = "btnClear";
             btnClear.Size = new Size(75, 23);
             btnClear.TabIndex = 7;
-            btnClear.Text = "btnClear";
+            btnClear.Text = "Wyczyść";
             btnClear.UseVisualStyleBackColor = true;
             btnClear.Click += button1_Click_1;
             // 

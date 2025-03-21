@@ -1,0 +1,16 @@
+C:\Users\APS37\source\repos\UrlFriendlyConverter\UrlFriendlyConverter\bin\Debug\net8.0-windows\UrlFriendlyConverter.exe
+C:\Users\APS37\source\repos\UrlFriendlyConverter\UrlFriendlyConverter\bin\Debug\net8.0-windows\UrlFriendlyConverter.deps.json
+C:\Users\APS37\source\repos\UrlFriendlyConverter\UrlFriendlyConverter\bin\Debug\net8.0-windows\UrlFriendlyConverter.runtimeconfig.json
+C:\Users\APS37\source\repos\UrlFriendlyConverter\UrlFriendlyConverter\bin\Debug\net8.0-windows\UrlFriendlyConverter.dll
+C:\Users\APS37\source\repos\UrlFriendlyConverter\UrlFriendlyConverter\bin\Debug\net8.0-windows\UrlFriendlyConverter.pdb
+C:\Users\APS37\source\repos\UrlFriendlyConverter\UrlFriendlyConverter\obj\Debug\net8.0-windows\UrlFriendlyConverter.Form1.resources
+C:\Users\APS37\source\repos\UrlFriendlyConverter\UrlFriendlyConverter\obj\Debug\net8.0-windows\UrlFriendlyConverter.csproj.GenerateResource.cache
+C:\Users\APS37\source\repos\UrlFriendlyConverter\UrlFriendlyConverter\obj\Debug\net8.0-windows\UrlFriendlyConverter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\APS37\source\repos\UrlFriendlyConverter\UrlFriendlyConverter\obj\Debug\net8.0-windows\UrlFriendlyConverter.AssemblyInfoInputs.cache
+C:\Users\APS37\source\repos\UrlFriendlyConverter\UrlFriendlyConverter\obj\Debug\net8.0-windows\UrlFriendlyConverter.AssemblyInfo.cs
+C:\Users\APS37\source\repos\UrlFriendlyConverter\UrlFriendlyConverter\obj\Debug\net8.0-windows\UrlFriendlyConverter.csproj.CoreCompileInputs.cache
+C:\Users\APS37\source\repos\UrlFriendlyConverter\UrlFriendlyConverter\obj\Debug\net8.0-windows\UrlFriendlyConverter.dll
+C:\Users\APS37\source\repos\UrlFriendlyConverter\UrlFriendlyConverter\obj\Debug\net8.0-windows\refint\UrlFriendlyConverter.dll
+C:\Users\APS37\source\repos\UrlFriendlyConverter\UrlFriendlyConverter\obj\Debug\net8.0-windows\UrlFriendlyConverter.pdb
+C:\Users\APS37\source\repos\UrlFriendlyConverter\UrlFriendlyConverter\obj\Debug\net8.0-windows\UrlFriendlyConverter.genruntimeconfig.cache
+C:\Users\APS37\source\repos\UrlFriendlyConverter\UrlFriendlyConverter\obj\Debug\net8.0-windows\ref\UrlFriendlyConverter.dll

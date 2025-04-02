@@ -81,7 +81,7 @@ namespace UrlFriendlyConverter
             text = text.Replace(" ", "-");
 
             // Usuniêcie niedozwolonych znaków
-            text = Regex.Replace(text, @"[^a-z0-9\-]", "");
+            text = Regex.Replace(text, @"[^a-z0-9\-,]", "");
 
             // Usuniêcie wielu myœlników z rzêdu
             text = Regex.Replace(text, @"-{2,}", "-");

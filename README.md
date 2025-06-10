@@ -10,20 +10,6 @@ Copy the result to the clipboard
 Automatic conversion on text change (optional)
 Easy clearing of input/output fields
 Multi-line input and output text boxes
-How to Run
-
-Clone the repository:
-
-sh
-git clone https://github.com/your-username/url-friendly-converter.git
-cd url-friendly-converter
-Open the project in Visual Studio.
-
-Run the project (F5).
-
-
-The application starts as a standard Windows Forms (WinForms) app and requires no additional configuration.
-
 
 How it works
 
